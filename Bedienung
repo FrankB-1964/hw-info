@@ -1,4 +1,6 @@
 Benutzung
+Getestet auf Debian 12
+
 Diese Script muss mit sudo ausgeführt werden
 Es prüft, ob alle notwendigen Tools installiert sind. Wenn nicht, muss das jeweilige Tool nachinstalliert werden
 z.B, 
@@ -12,3 +14,5 @@ Beim Start muss ein Pfad inkl Dateiname angegeben werden. Dort wird die Liste ge
 
 Das Script gibt Informationen zur gesamten Hardware, auch zu Hardware, die keinen Treiber installiert hat und gibt 
 Hinweise, wo ggf Treiber zu finden sind
+
+Jeder darf das Script frei nutzen und auch ändern
