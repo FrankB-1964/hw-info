@@ -1,0 +1,14 @@
+Benutzung
+Diese Script muss mit sudo ausgeführt werden
+Es prüft, ob alle notwendigen Tools installiert sind. Wenn nicht, muss das jeweilige Tool nachinstalliert werden
+z.B, 
+sudo apt-get update
+sudo apt-get install TOOLNAME
+
+Das Script muss mit chmod +x hardware.sh ausfürbar gemacht werden
+Starten mit sudo ./hardware.sh
+
+Beim Start muss ein Pfad inkl Dateiname angegeben werden. Dort wird die Liste gespeichert
+
+Das Script gibt Informationen zur gesamten Hardware, auch zu Hardware, die keinen Treiber installiert hat und gibt 
+Hinweise, wo ggf Treiber zu finden sind
